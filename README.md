@@ -19,11 +19,11 @@ Nodejs
 Express
 Pug
 CSS
-HTML
+HTML.
 The following is the list of all dependencies used by nodejs:
 express
 body-parser
-pug
+pug.
 
 ## Reference
 

@@ -1,0 +1,21 @@
+extend layout
+
+block content
+  div.container
+    h1.head Create new post
+    
+    form(method="post" action="/posts/create").form-create
+      label(for="author") Your Name
+      input(type="text" name="author" id="author")
+
+      label(for="title") Title
+      input(type="text" name="title" id="title")
+
+      label(for="body") Body
+      textarea(name="details" id="body" rows="10" cols="132" placeholder="Enter post here" wrap="on")
+
+      input(type="submit" value="Publish post")
+    if success
+      div.notifier.green Your post was successfully published :)
+    //- else
+    //-   div.notifier.red There was a problem publishing your post. Please, try again later :(

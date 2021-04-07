@@ -1,0 +1,17 @@
+extend layout
+
+block content
+	h1.head All posts
+	table.posts
+		tr
+			th Author
+			th Post title
+			th Options
+		each post in posts
+			tr
+				td
+					a(href="/").table-links= post.author
+				td
+					a(href="/posts/" + post.id).table-links= post.title
+				td
+					a(href="/posts/" + post.id + "/delete").btn.btn-delete Delete

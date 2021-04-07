@@ -1,0 +1,8 @@
+extend layout
+
+block content
+	div.container
+		h1.head= post.title
+		h2.author By #{post.author}
+		h3.timeline= post.timeline
+		p= post.body

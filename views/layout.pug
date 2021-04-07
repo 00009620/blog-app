@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title Blog App
+    link(rel='stylesheet' type='text/css' href='/assets/styles/main.css')
+    link(rel="preconnect" href="https://fonts.gstatic.com")
+    link(href="https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&display=swap" rel="stylesheet")
+  body
+    header
+      nav
+        a(href='/')
+          img(src="/assets/images/blogger.svg", alt="Brand logo of the blog app", srcset="").brand-logo
+        ul.navbar
+          li
+            a(href='/posts/create').nav-links New post
+          li
+            a(href='/posts').nav-links All posts
+          li
+            a(href='/archive').nav-links Archived
+    main
+      block content
+    footer &copy This web application was created to fulfill Web Technology module's requirements and does not represent an actual company or service

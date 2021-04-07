@@ -13,14 +13,14 @@ The second command will start the web app locally in a web browser, url to acces
 
 ## Dependencies list
 
-It was created using the following stack:
+It was created using the following stack: <br />
 Javascript <br />
 Nodejs <br />
 Express <br />
 Pug <br />
 CSS <br />
 HTML <br />
-The following is the list of all dependencies used by nodejs:
+The following is the list of all dependencies used by nodejs: <br />
 express <br />
 body-parser <br />
 pug <br />

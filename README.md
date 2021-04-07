@@ -19,7 +19,7 @@ Nodejs <br />
 Express <br />
 Pug <br />
 CSS <br />
-HTML <br />
+HTML <br /> <br />
 The following is the list of all dependencies used by nodejs: <br />
 express <br />
 body-parser <br />

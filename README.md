@@ -28,5 +28,5 @@ pug.
 ## Reference
 
 GitHub public repo: https://github.com/00009620/blog-app
-Glitch:
+Glitch: https://wide-lydian-larch.glitch.me/
 Credits to https://www.flaticon.com for the home page icon
